@@ -22,4 +22,28 @@ Independent deployment<br>
 
 **Uber** also relies heavily on microservices to operate its ride platform. Separate services handle ride requests, driver matching, location tracking, pricing calculations, and payment processing. Because ride demand changes rapidly throughout the day, Uber can horizontally scale specific services to handle peak traffic.
 
+#### Companies That Tried Microservices and Went Back to Monolith
+
+#### Segment
+Segment, a customer data platform, initially split its system into microservices to make development more modular and scalable.
+
+#### Why it failed  
+- **Deployment complexity:** Coordinating updates across many services became difficult.  
+- **Operational overhead:** Running and monitoring dozens of microservices required too many resources.  
+- **Troubleshooting difficulty:** Tracking bugs across distributed services slowed down development.
+
+ 
+ Segment simplified the architecture, consolidating some microservices back into a more centralized system to improve reliability and reduce overhead.
+
+#### InVision
+**What they did:** InVision, a digital product design platform, adopted microservices to separate features like collaboration, project management, and integrations into independent services.
+
+#### Why it failed 
+- **Too many services:** Managing hundreds of services became overwhelming.  
+- **Debugging challenges:** Errors often required tracing through multiple services.  
+- **High infrastructure cost:** Running many services increased servers, monitoring, and maintenance expenses.
+
+- 
+ InVision moved many services back into a monolithic architecture, making development and maintenance simpler.
+
 
