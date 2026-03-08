@@ -43,7 +43,10 @@ Segment, a customer data platform, initially split its system into microservices
 - **Debugging challenges:** Errors often required tracing through multiple services.  
 - **High infrastructure cost:** Running many services increased servers, monitoring, and maintenance expenses.
 
-- 
+
  InVision moved many services back into a monolithic architecture, making development and maintenance simpler.
 
+#### Conclusion
+
+While microservices offer **flexibility scalability, and independent development**, they also introduce **complexity, high operational costs, and debugging challenges**. Companies like Segment and InVision discovered that for their systems, the **benefits did not outweigh the overhead**, so they returned to monolithic or modular monolith architectures. This shows that microservices are **most effective for very large platforms** with many teams and high demand, but may not be the best choice for all organizations.
 
