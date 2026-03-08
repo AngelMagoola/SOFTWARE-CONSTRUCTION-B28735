@@ -11,10 +11,15 @@ Netflix is one of the companies that has successfully implemented microservices 
 
 
 Netflix uses a cloud-based microservices architecture on AWS, which lets it scale horizontally and handle millions of users. Its Open Connect CDN delivers videos closer to users for faster streaming. Requests go through Zuul, the API gateway, while Hystrix ensures failures in one service don’t crash the platform. Internal APIs manage authentication, recommendations, catalog, streaming, and billing, keeping the system reliable and flexible.
-#### Characteistics of mricroservices at netflix
+#### Characteistics of microservices at netflix
 Domain driven<br>
 Decoupled services<br>
 Lightweight communication<br>
 Independent deployment<br>
+#### Other Companies That Use Microservices
+**Amazon** uses microservices to manage its massive e-commerce system. Different services handle tasks such as product search, inventory management, order processing, payment handling, and shipping logistics. Each service operates independently, which allows Amazon to scale individual services and update features without affecting the entire platform.
+
+
+**Uber** also relies heavily on microservices to operate its ride platform. Separate services handle ride requests, driver matching, location tracking, pricing calculations, and payment processing. Because ride demand changes rapidly throughout the day, Uber can horizontally scale specific services to handle peak traffic.
 
 
