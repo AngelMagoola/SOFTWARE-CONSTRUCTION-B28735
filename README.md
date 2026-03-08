@@ -11,4 +11,10 @@ Netflix is one of the companies that has successfully implemented microservices 
 
 
 Netflix uses a cloud-based microservices architecture on AWS, which lets it scale horizontally and handle millions of users. Its Open Connect CDN delivers videos closer to users for faster streaming. Requests go through Zuul, the API gateway, while Hystrix ensures failures in one service don’t crash the platform. Internal APIs manage authentication, recommendations, catalog, streaming, and billing, keeping the system reliable and flexible.
+#### Characteistics of mricroservices at netflix
+Domain driven<br>
+Decoupled services<br>
+Lightweight communication<br>
+Independent deployment<br>
+
 
